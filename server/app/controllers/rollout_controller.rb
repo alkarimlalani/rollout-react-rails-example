@@ -18,7 +18,6 @@ class RolloutController < ApplicationController
     }
 
     token = JWT.encode payload, ROLLOUT_CLIENT_SECRET, 'HS512'
-    response.headers['Access-Control-Allow-Origin'] = '*'
     render json: {"token": token}
   end
 end

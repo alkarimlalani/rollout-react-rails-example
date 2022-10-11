@@ -3966,9 +3966,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollouthq/api-client-react@npm:0.0.174":
-  version: 0.0.174
-  resolution: "@rollouthq/api-client-react@npm:0.0.174"
+"@rollouthq/api-client-react@npm:0.0.178":
+  version: 0.0.178
+  resolution: "@rollouthq/api-client-react@npm:0.0.178"
   dependencies:
     "@trpc/client": ^9.27.0
     "@trpc/react": ^9.27.0
@@ -3978,13 +3978,13 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
     react-query: ^3.39.2
-  checksum: 2b0b72427c424d47061f8f267aac99109fdb8a121d8ad3f0efcc63827e9b2aeea2a7351ed45ae5ddda0180598b870ad82f6502fd82eda44c9633e9c6fc86731d
+  checksum: 3523217585cd4f734288833cd5628ad02e727fc7d3cde9b3b1ba41f8dd31b516c17d41977e1f598e552a6df39dad99dbf261951b485c5f50c6f068f3c0cf0b7c
   languageName: node
   linkType: hard
 
-"@rollouthq/common@npm:0.0.174":
-  version: 0.0.174
-  resolution: "@rollouthq/common@npm:0.0.174"
+"@rollouthq/common@npm:0.0.178":
+  version: 0.0.178
+  resolution: "@rollouthq/common@npm:0.0.178"
   dependencies:
     "@tiptap/extension-blockquote": ^2.0.0-beta.26
     "@tiptap/extension-bold": ^2.0.0-beta.26
@@ -4010,18 +4010,18 @@ __metadata:
     zod: ^3.16.0
   peerDependencies:
     "@tiptap/core": ^2.0.0-beta.174
-  checksum: f52b80f534ec4f9052e7c35cada4e1d6879e59a16d289982655cbde335e11f7a19c8ab3ac3f123b4cafea1d80a7d926ae3ec39fd7fab53d08e9dc2177a6f0c81
+  checksum: 8a41ee2224eaceee6cbe6f957e74360e82e6a49fb27691f371d2da732b394d8864e1ca17f5c4eb547a92e7a5eaf9c9a2509f3a8941890aeacade16cbcf77bf66
   languageName: node
   linkType: hard
 
-"@rollouthq/connect-react@npm:^0.0.174":
-  version: 0.0.174
-  resolution: "@rollouthq/connect-react@npm:0.0.174"
+"@rollouthq/connect-react@npm:^0.0.178":
+  version: 0.0.178
+  resolution: "@rollouthq/connect-react@npm:0.0.178"
   dependencies:
-    "@rollouthq/api-client-react": 0.0.174
-    "@rollouthq/common": 0.0.174
-    "@rollouthq/ui": 0.0.174
-    "@sentry/browser": ^7.13.0
+    "@rollouthq/api-client-react": 0.0.178
+    "@rollouthq/common": 0.0.178
+    "@rollouthq/ui": 0.0.178
+    "@sentry/browser": ^7.15.0
     assert: ^2.0.0
     jwt-decode: ^3.1.2
     match-sorter: ^6.3.1
@@ -4034,13 +4034,13 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 269f97a486dcc521b2bc2946d72e1628d95bfe940a710d41dfbddd943061e0f40e2ef6b098e049db083a69dc061c1ccebab61f87f9ca015971e8462b12739d3d
+  checksum: e0858ff4ad528c4326e13ed4edd979327c133b628fd515df28b354cc480beb1030232bbbfbc47b9dcd0b222320b6d9026fc4c9c4866d6c28dfa4c24ace82a7b2
   languageName: node
   linkType: hard
 
-"@rollouthq/ui@npm:0.0.174":
-  version: 0.0.174
-  resolution: "@rollouthq/ui@npm:0.0.174"
+"@rollouthq/ui@npm:0.0.178":
+  version: 0.0.178
+  resolution: "@rollouthq/ui@npm:0.0.178"
   dependencies:
     "@ctrl/tinycolor": ^3.4.1
     "@internationalized/date": ^3.0.0
@@ -4063,7 +4063,7 @@ __metadata:
     "@react-stately/radio": ^3.4.1
     "@react-stately/tabs": ^3.1.1
     "@react-stately/toggle": ^3.2.7
-    "@rollouthq/common": 0.0.174
+    "@rollouthq/common": 0.0.178
     "@stitches/react": ^1.2.8
     "@tiptap/core": ^2.0.0-beta.174
     "@tiptap/extension-dropcursor": ^2.0.0-beta.25
@@ -4087,7 +4087,7 @@ __metadata:
     date-fns: ^2.28.0
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 9f44a3567186e02b5caa405176caed7d86a18ec1d5e7cae7fb3dfb2c970a8ddb7729c529aaf2fedb30ad21e72dceecdd25acd3d714ff45049e498ded451873ac
+  checksum: dec175251fab604bf8b18c0d1f9048b239d60419f5b09afb7c953b2e0e5e6d3044588579db59e5ecfdfdc20791f550cf1c4fc6227456d6ab0c9f14108725f633
   languageName: node
   linkType: hard
 
@@ -4156,7 +4156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/browser@npm:^7.13.0":
+"@sentry/browser@npm:^7.15.0":
   version: 7.15.0
   resolution: "@sentry/browser@npm:7.15.0"
   dependencies:
@@ -6549,7 +6549,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:client"
   dependencies:
-    "@rollouthq/connect-react": ^0.0.174
+    "@rollouthq/connect-react": ^0.0.178
     "@testing-library/jest-dom": 5.16.5
     "@testing-library/react": 13.4.0
     "@testing-library/user-event": 13.5.0
